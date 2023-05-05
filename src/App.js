@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, GridItem, Box } from '@chakra-ui/react';
 import './App.css';
 import Header from './components/Header/Header';
+import Intro from './components/Intro/Intro';
 
 function App() {
   return (
@@ -15,12 +16,12 @@ function App() {
                                   "footer"
                                   `}
         >
-          <GridItem area="header" bg="lightblue">
+          <GridItem area="header" bg="#2A2C2F">
             <Header />
           </GridItem>
 
-          <GridItem area="intro" bg="lightgreen">
-            Intro
+          <GridItem area="intro" bg="#2A2C2F">
+            <Intro />
           </GridItem>
 
           <GridItem area="locations" bg="lightslategray">

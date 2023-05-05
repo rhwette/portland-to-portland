@@ -1,0 +1,45 @@
+.introTextLarge {
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+}
+
+.introTextMedium {
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 40px;
+}
+
+.introTextMediumSmall {
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 40px;
+}
+
+.introTextSmall {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 30px;
+}
+
+.introGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        gap: 20px;
+    } 
+    
+    @media screen and (max-width:768px) {
+        .introGrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr  ;
+            gap: 20px;
+        }
+    }
