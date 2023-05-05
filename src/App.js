@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, GridItem, Box } from '@chakra-ui/react';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
                                   `}
         >
           <GridItem area="header" bg="lightblue">
-            Header
+            <Header />
           </GridItem>
 
           <GridItem area="intro" bg="lightgreen">
