@@ -3,8 +3,8 @@ import logo from '../../assets/images/logo.png';
 
 const Header = () => {
   return (
-    <Flex justifyContent="center" alignItems={'center'}>
-      <Image src={logo} boxSize="80px" />
+    <Flex justifyContent="left" alignItems={'center'}>
+      <Image src={logo} boxSize="60px" marginLeft={'10px'} />
     </Flex>
   );
 };
