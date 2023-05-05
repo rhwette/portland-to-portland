@@ -14,16 +14,24 @@ function App() {
                                   "footer"
                                   `}
         >
-          <GridItem area="header">{/* <Header></Header> */}</GridItem>
+          <GridItem area="header" bg="lightblue">
+            Header
+          </GridItem>
 
-          <GridItem area="intro">{/* <Intro /> */}</GridItem>
+          <GridItem area="intro" bg="lightgreen">
+            Intro
+          </GridItem>
 
-          <GridItem area="locations">{/* <Locations /> */}</GridItem>
+          <GridItem area="locations" bg="lightslategray">
+            Locations
+          </GridItem>
 
-          <GridItem area="visit">{/* <Visit /> */}</GridItem>
+          <GridItem area="visit" bg="lavender">
+            Visit
+          </GridItem>
 
-          <GridItem area="footer" bg="black">
-            {/* <Footer /> */}
+          <GridItem area="footer" bg="lightsteelblue">
+            Footer
           </GridItem>
         </Grid>
       </Box>
