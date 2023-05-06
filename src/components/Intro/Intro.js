@@ -47,7 +47,6 @@ const Intro = () => {
           textAlign={'left'}
           w={'65%'}
           mt="50px"
-          //   mb="40px"
         >
           Every human being is an artist, a freedom being, called to participate
           in transforming and reshaping the conditions, thinking, and structures
@@ -60,7 +59,6 @@ const Intro = () => {
           className="introTextMediumSmall"
           textAlign={'right'}
           w={'65%'}
-          //   mt="50px"
           mb="30px"
         >
           &#8212;Joseph Beuys
@@ -68,13 +66,7 @@ const Intro = () => {
       </Flex>
 
       <Flex justifyContent={'center'}>
-        <Text
-          className="introTextSmall"
-          textAlign={'left'}
-          w={'65%'}
-          //   mt="50px"
-          mb="40px"
-        >
+        <Text className="introTextSmall" textAlign={'left'} w={'65%'} mb="40px">
           The town of Practicum has brought together professionals from
           different corners of the world. Today, Practicum Art Gallery is proud
           to present stories and pictures from some of the people who dedicate

@@ -3,6 +3,7 @@ import { Grid, GridItem, Box } from '@chakra-ui/react';
 import './App.css';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
+import Locations from './components/Locations/Locations';
 
 function App() {
   return (
@@ -24,8 +25,8 @@ function App() {
             <Intro />
           </GridItem>
 
-          <GridItem area="locations" bg="lightslategray">
-            Locations
+          <GridItem area="locations" bg="#2A2C2F">
+            <Locations />
           </GridItem>
 
           <GridItem area="visit" bg="lavender">

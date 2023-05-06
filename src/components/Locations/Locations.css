@@ -1,0 +1,134 @@
+.locationLayout {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0;
+}
+
+@media screen and (max-width:768px) {
+    .locationLayout {
+      width: 100%;
+      max-width: 768px;
+    }
+  }
+  
+  @media screen and (max-width:320px) {
+    .locationLayout {
+        width: 100%;
+        max-width: 320px;
+    }
+  }
+
+  .locationCity {
+    margin: 0 148px 0 148px;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    grid-template-areas:
+      "name artist"
+      "picture descript"
+      "button descript"
+      " . descript";
+  }
+
+  .locationCity_name {
+        width: 100%;
+        align-content:flex-start;
+        max-width: 300px;
+        padding-bottom: 48px;
+        padding-left: 3px;
+        font-size: 5.616vw;
+        line-height: 5.928vw;
+        font-weight: 900;
+        font-style: normal;
+        color: #FFF;
+        margin: 0;
+        grid-area: name;
+      }
+
+      .locationCity_button {
+          background-color: #0278FE;
+          border-radius: 4px;
+          color:#FFFFFF;
+          padding: 13px 0px 13px 0px;
+          text-align:center;
+          display: inline-block;
+          font-family: 'Inter', Arial, sans-serif;
+          font-size: 1.404vw;
+          line-height: 1.699vw;
+          font-weight: 600;
+          font-style: normal;
+          text-decoration: none;
+          margin-top: 48px;
+          max-width: 19.344vw;
+          width: 100%;
+          transition: all 0.2s;
+          grid-area: button;
+
+      }
+
+      .locationCity_button:hover {
+        background-color:#0063D2;
+      }
+
+      .locationCity_picture {
+        width: 100%;
+        max-width: 460px;
+        padding: 0px 0px 0px 0px;
+        margin: 0;
+        grid-area: picture;
+      }
+
+      .locationCity_artist {
+        grid-area: artist;
+        flex-direction: column;
+        justify-content: end;
+        padding-bottom: 48px;
+        display: flex;
+      }
+
+      .locationCity_artist-name {
+        width: 100%;
+        max-width: 456px;
+        font-size: 1.404vw;
+        line-height: 1.716vw;
+        font-weight: 400;
+        font-style: normal;
+        color: #FFF;
+        margin: 0;
+      }
+
+      .locationCity_artist-label {
+        width: 100%;
+        max-width: 50px;
+        font-size: 12px;
+        line-height: 14.52px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing:.12em;
+        color: #AAA;
+        margin: 0;
+        padding-bottom: 8px;
+      }
+
+      .locationCity_descript {
+        grid-area: descript;
+      
+      }
+
+      .locationCity_description {
+        max-width: 484px;
+        min-width: 240px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        font-size: 1.404vw;
+        line-height: 2.289vw;
+        font-weight: 400;
+        font-style: normal;
+        color: #FFF;
+        margin: 0;
+      }
+      
+      .locationCity_description:last-child {
+        padding-bottom: 0px;
+      }
