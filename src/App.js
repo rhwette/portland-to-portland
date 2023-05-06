@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
 import Locations from './components/Locations/Locations';
+// import Visit from './components/Visit/Visit';
 
 function App() {
   return (
@@ -29,9 +30,9 @@ function App() {
             <Locations />
           </GridItem>
 
-          <GridItem area="visit" bg="lavender">
-            Visit
-          </GridItem>
+          {/* <GridItem area="visit" bg="lavender">
+            <Visit />
+          </GridItem> */}
 
           <GridItem area="footer" bg="lightsteelblue">
             Footer

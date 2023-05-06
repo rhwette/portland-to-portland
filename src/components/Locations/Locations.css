@@ -82,7 +82,7 @@
       .locationCity_artist {
         grid-area: artist;
         flex-direction: column;
-        justify-content: end;
+        justify-content: flex-end;
         padding-bottom: 48px;
         display: flex;
       }
