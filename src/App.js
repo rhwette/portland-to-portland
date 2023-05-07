@@ -4,7 +4,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
 import Locations from './components/Locations/Locations';
-// import Visit from './components/Visit/Visit';
+import Visit from './components/Visit/Visit';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -30,12 +31,12 @@ function App() {
             <Locations />
           </GridItem>
 
-          {/* <GridItem area="visit" bg="lavender">
+          <GridItem area="visit" bg="lavender">
             <Visit />
-          </GridItem> */}
+          </GridItem>
 
           <GridItem area="footer" bg="lightsteelblue">
-            Footer
+            <Footer />
           </GridItem>
         </Grid>
       </Box>
