@@ -31,11 +31,11 @@ function App() {
             <Locations />
           </GridItem>
 
-          <GridItem area="visit" bg="lavender">
+          <GridItem area="visit" bg="#2A2C2F">
             <Visit />
           </GridItem>
 
-          <GridItem area="footer" bg="lightsteelblue">
+          <GridItem area="footer" bg="#2A2C2F">
             <Footer />
           </GridItem>
         </Grid>

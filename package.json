@@ -2,6 +2,7 @@
   "name": "portland-to-portland",
   "version": "0.1.0",
   "private": "false",
+  "homepage": "https://rhwette.github.io/portland-to-portland",
   "dependencies": {
     "@chakra-ui/react": "^2.6.1",
     "@emotion/react": "^11.10.8",

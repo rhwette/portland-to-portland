@@ -2,21 +2,12 @@
 
 .visit_image {
     width: 100%;
-    /*change max width to 1184*/
-    /* max-width: 1280px; */
-    /* and add m-l m-r = 48px */
     background-size: cover;
     max-width: 92.5vw;
-    /* min-width: 664px; */
-    /* remove margins l and r */
-    margin-left: 3.75vw;
-    margin-right: 3.75vw;
-    /* min-height: 740px; */
-    /* min-height: 96.3554vw; */
     min-height: 57.8125vw;
     position: relative;
     margin-top: 92px;
-    margin-bottom: 92px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +23,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat: none;
-    opacity: .7;
+    opacity: .9;
     position: absolute;
     top:0;
     bottom:0;
@@ -43,23 +34,18 @@
   }
   
   .visit_image:hover::before {
-    opacity: .2;
+    opacity: .6;
     }
 
  
 
   .visit_textLarge {
     width: 100%;
-    /* max-width: 656px; */
     max-width: 51.25vw;
-    /* margin-top: 243px; */
     margin: 0;
     margin-bottom: 32px;
-    /* padding-bottom: 32px; */
     font-family: 'Inter', Arial, sans-serif;
-    /* font-size: 72px; */
     font-size: 5.625vw;
-    /* line-height: 76px; */
     line-height: 5.9375vw;
     font-weight: 900;
     text-align: center;
