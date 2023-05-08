@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portland-to-portland/static/css/main.bc9438b7.css",
+    "main.js": "/portland-to-portland/static/js/main.7cc4eb3a.js",
+    "static/js/787.9689a148.chunk.js": "/portland-to-portland/static/js/787.9689a148.chunk.js",
+    "static/media/Visit-Us.png": "/portland-to-portland/static/media/Visit-Us.4cfc89e91df501619ee5.png",
+    "static/media/hometown_earth.png": "/portland-to-portland/static/media/hometown_earth.c4fb7efb250e428280e0.png",
+    "static/media/intro.png": "/portland-to-portland/static/media/intro.f76e9c09b9a1b3d3996f.png",
+    "static/media/Berea_KY.png": "/portland-to-portland/static/media/Berea_KY.f8db617942ee120dcaad.png",
+    "static/media/Muramvya_Burundi.png": "/portland-to-portland/static/media/Muramvya_Burundi.ba2836caba641e33a191.png",
+    "static/media/Cricieth_Wales.png": "/portland-to-portland/static/media/Cricieth_Wales.f765ece22d77b1302325.png",
+    "static/media/logo.png": "/portland-to-portland/static/media/logo.1d2ccfdcbf3d7fba3075.png",
+    "static/media/grid2-2.png": "/portland-to-portland/static/media/grid2-2.9d5162f344d945535853.png",
+    "static/media/grid2-4.png": "/portland-to-portland/static/media/grid2-4.d1e4606ca831e3ca00fb.png",
+    "static/media/grid2-3.png": "/portland-to-portland/static/media/grid2-3.b4420b4d85a5c57c0bb3.png",
+    "static/media/grid2-1.png": "/portland-to-portland/static/media/grid2-1.a6c623e32b536117de7a.png",
+    "static/media/grid1-3.png": "/portland-to-portland/static/media/grid1-3.e47320197ead7291bed6.png",
+    "static/media/grid1-2.png": "/portland-to-portland/static/media/grid1-2.1051ea7c38878e681e93.png",
+    "static/media/grid1-4.png": "/portland-to-portland/static/media/grid1-4.3d4803df20dcbb7e43a3.png",
+    "static/media/grid1-1.png": "/portland-to-portland/static/media/grid1-1.d79c4ea364f4ca294e6f.png",
+    "index.html": "/portland-to-portland/index.html",
+    "main.bc9438b7.css.map": "/portland-to-portland/static/css/main.bc9438b7.css.map",
+    "main.7cc4eb3a.js.map": "/portland-to-portland/static/js/main.7cc4eb3a.js.map",
+    "787.9689a148.chunk.js.map": "/portland-to-portland/static/js/787.9689a148.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc9438b7.css",
+    "static/js/main.7cc4eb3a.js"
+  ]
+}
