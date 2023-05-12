@@ -6,8 +6,11 @@ import Intro from './components/Intro/Intro';
 import Locations from './components/Locations/Locations';
 import Visit from './components/Visit/Visit';
 import Footer from './components/Footer/Footer';
+import { cityData } from './Helper/Helper';
 
 function App() {
+  console.log('cityData', cityData);
+
   return (
     <Box className="container">
       <Box marginRight={'10px'} marginLeft={'10px'} h="100%">
@@ -28,7 +31,19 @@ function App() {
           </GridItem>
 
           <GridItem area="locations" bg="#2A2C2F">
-            <Locations />
+            {cityData.map(cityData => {
+              console.log('cityData', cityData);
+              return (
+                <Locations
+                  key={cityData.cityName}
+                  cityName={cityData.cityName}
+                  cityPic={cityData.cityPic}
+                  cityArtistLabel={cityData.cityArtistLabel}
+                  cityArtistName={cityData.cityArtistName}
+                  cityDescription={cityData.cityDescription}
+                ></Locations>
+              );
+            })}
           </GridItem>
 
           <GridItem area="visit" bg="#2A2C2F">
