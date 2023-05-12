@@ -1,5 +1,4 @@
 import { Image } from '@chakra-ui/react';
-import './IntroGrid.css';
 
 const IntroGrid = ({ introGridPics }) => {
   return (
