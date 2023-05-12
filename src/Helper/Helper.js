@@ -5,6 +5,19 @@ import bereaImage from '../assets/images/Berea_KY.png';
 import muramvyaImage from '../assets/images/Muramvya_Burundi.png';
 import hometownImage from '../assets/images/hometown_earth.png';
 
+import introImage from '../assets/images/intro.png';
+
+import gridImage1a from '../assets/images/grid1-1.png';
+import gridImage1b from '../assets/images/grid1-2.png';
+import gridImage1c from '../assets/images/grid1-3.png';
+import gridImage1d from '../assets/images/grid1-4.png';
+import gridImage2a from '../assets/images/grid2-1.png';
+import gridImage2b from '../assets/images/grid2-2.png';
+import gridImage2c from '../assets/images/grid2-3.png';
+import gridImage2d from '../assets/images/grid2-4.png';
+
+//add image imports for Intro section
+
 // here is an array of objects with all data for each city
 
 export const cityData = [
@@ -15,7 +28,7 @@ export const cityData = [
     cityArtistName: ['Natalia Dolgushina, content producer'],
     cityDescription: [
       "Kyiv (or Kiev), Ukraine's capital, is a large city located on the shores of the Dnipro river. Of course, no one in their right mind would swim in the river, unless they grew up here, in which case they've probably tried it at some point. Summers are hot here, and the winters are drafty, but the fall and the spring are are absolutely amazing.",
-      "The city itself is a mix of pre-revolution, post-war and soviet architecture, all of it sprinkled with modified balconies. If you're on the right bank of the Dnipro, the landscape is difficult to traverse for people on bikes and those wearing heels. The left bank is considered far less interesting and prestigious though, even by people who live on the far outskirts of the right one.",
+      "  The city itself is a mix of pre-revolution, post-war and soviet architecture, all of it sprinkled with modified balconies. If you're on the right bank of the Dnipro, the landscape is difficult to traverse for people on bikes and those wearing heels. The left bank is considered far less interesting and prestigious though, even by people who live on the far outskirts of the right one.",
     ],
   },
 
@@ -64,6 +77,31 @@ export const cityData = [
     cityDescription: [
       'Hometown, Earth.... a fascinating location',
       'Each of us has a Hometown, Earth, that we call our own.',
+    ],
+  },
+];
+
+export const introData = [
+  {
+    introTitle: 'From Homeland to Homeland',
+    introSubTitle:
+      'An epic journey from Kentucky to Burundi through Wales and Ukraine',
+    introPic: introImage,
+    introTextTop: 'Know the places your online pals come from a little better',
+    introTextMid:
+      'Every human being is an artist, a freedom being, called to participate in transforming and reshaping the conditions, thinking, and structures that shape and inform our lives.',
+    introTextAuth: '\u2014 Joseph Beuys',
+    introTextBot:
+      "The town of Practicum has brought together professionals from different corners of the world. Today, Practicum Art Gallery is proud to present stories and pictures from some of the people who dedicate their time and effort to making the future tech professionals of this town feel at home. Each of us has a unique story about the place we come from. Feel free to add your own story and a piece of visual art dedicated to your hometown to our collection. No matter where you're from, we're glad that you're our neighbor.",
+    introGridPics: [
+      gridImage1a,
+      gridImage1b,
+      gridImage1c,
+      gridImage1d,
+      gridImage2a,
+      gridImage2b,
+      gridImage2c,
+      gridImage2d,
     ],
   },
 ];

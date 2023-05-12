@@ -1,7 +1,7 @@
 import './CityText.css';
 
 const CityText = ({ cityDescription }) => {
-  return <p className="city_description">{cityDescription}</p>;
+  return <span className="city_description">{cityDescription}</span>;
 };
 
 export default CityText;

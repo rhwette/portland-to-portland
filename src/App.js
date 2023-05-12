@@ -7,10 +7,9 @@ import Locations from './components/Locations/Locations';
 import Visit from './components/Visit/Visit';
 import Footer from './components/Footer/Footer';
 import { cityData } from './Helper/Helper';
+import { introData } from './Helper/Helper';
 
 function App() {
-  console.log('cityData', cityData);
-
   return (
     <Box className="container">
       <Box marginRight={'10px'} marginLeft={'10px'} h="100%">
@@ -27,12 +26,27 @@ function App() {
           </GridItem>
 
           <GridItem area="intro" bg="#2A2C2F">
+            {introData.map(introData => {
+              console.log('introData', introData);
+              return (
+                <Intro
+                  key={introData.introTitle}
+                  introTitle={introData.introTitle}
+                  introSubTitle={introData.introSubTitle}
+                  introPic={introData.introPic}
+                  introTextTop={introData.introTextTop}
+                  introTextMid={introData.introTextMid}
+                  introTextAuth={introData.introTextAuth}
+                  introTextBot={introData.introTextBot}
+                  introGridPics={introData.introGridPics}
+                ></Intro>
+              );
+            })}
             <Intro />
           </GridItem>
 
           <GridItem area="locations" bg="#2A2C2F">
             {cityData.map(cityData => {
-              console.log('cityData', cityData);
               return (
                 <Locations
                   key={cityData.cityName}

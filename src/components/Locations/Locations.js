@@ -32,7 +32,12 @@ const Locations = ({
 
           <Text className="locationCity_description">
             {cityDescription.map(cityDescription => {
-              return <CityText cityDescription={cityDescription} />;
+              return (
+                <CityText
+                  key={cityDescription}
+                  cityDescription={cityDescription}
+                />
+              );
             })}
           </Text>
         </Box>
